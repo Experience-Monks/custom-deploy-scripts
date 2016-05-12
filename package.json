@@ -20,9 +20,9 @@
     "release-gzip": "node scripts/gzip.js --env=production",
     "release-clean": "node scripts/clean.js --env=production",
     "lowercase": "node scripts/lowercase.js",
-    "version": "npm version patch && npm run push",
-    "push": "git push && git push --tags",
-    "build": "npm run release && git add -A && npm run version"
+    "build": "npm run release && git add -A && git ci -m 'some update' && npm run version",
+    "version": "npm version patch -m 'Upgrade to %s for reasons' && npm run push",
+    "push": "git push && git push --tags"
 
   },
   "license": "ISC",
