@@ -21,7 +21,8 @@
     "release-clean": "node scripts/clean.js --env=production",
     "lowercase": "node scripts/lowercase.js",
     "develop": "npm version patch && npm run push",
-    "push": "git push --tags"
+    "version": "git add -A",
+    "push": "git push && git push --tags"
   },
   "license": "ISC",
   "repository": "https://github.com/Jam3/custom-deploy-scripts",
