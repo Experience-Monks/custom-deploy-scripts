@@ -1,6 +1,6 @@
 {
   "name": "",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Example custom npm scripts for automated deploys",
   "author": {
     "name": "Jam3",
@@ -21,7 +21,7 @@
     "release-clean": "node scripts/clean.js --env=production",
     "lowercase": "node scripts/lowercase.js",
     "build": "npm run release && git add -A && git ci -m 'some update'",
-    "version": "npm version patch && npm run push",
+    "version": "npm version patch",
     "push": "git add -A && git push && git push --tags"
   },
   "license": "ISC",
