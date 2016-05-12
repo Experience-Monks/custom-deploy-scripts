@@ -1,6 +1,6 @@
 {
   "name": "",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Example custom npm scripts for automated deploys",
   "author": {
     "name": "Jam3",
@@ -26,8 +26,7 @@
   },
   "license": "ISC",
   "repository": "https://github.com/Jam3/custom-deploy-scripts",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "budo": "^8.0.4",
     "rimraf": "^2.5.2",
