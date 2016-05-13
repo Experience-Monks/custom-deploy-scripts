@@ -22,7 +22,7 @@
     "lowercase": "node scripts/lowercase.js",
     "build": "npm run release && git add -A && npm run develop",
     "develop": "npm version patch && npm run push",
-    "push": "git push --tags"
+    "push": "git push && git push --tags"
   },
   "license": "ISC",
   "repository": "https://github.com/Jam3/custom-deploy-scripts",
