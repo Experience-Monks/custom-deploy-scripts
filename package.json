@@ -20,7 +20,7 @@
     "release-gzip": "node scripts/gzip.js --env=production",
     "release-clean": "node scripts/clean.js --env=production",
     "lowercase": "node scripts/lowercase.js",
-    "build": "npm run release && git add -A && git ci -m 'some update' && npm run develop",
+    "build": "npm run release && git add -A && npm run develop",
     "develop": "npm version patch && npm run push",
     "push": "git push --tags"
   },
